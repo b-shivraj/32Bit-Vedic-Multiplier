@@ -10,8 +10,8 @@ set top_module "vedic32x32"
 set synth_verilog "netlist_vedic32.v"
 set sdc_file "top.sdc"
 
-set die_area {0 0 990 1000}
-set core_area {15 20 980 970}
+set die_area {0 0 360 380}
+set core_area {15 20 330 340}
 
 #source -echo "floorplan_flow.tcl"
 #source -echo "flow_pdn.tcl"
