@@ -74,7 +74,24 @@ core_area {15 20 330 340}
 
 
 
+
+
+
+
+
 **Directory Structure** 
+
+1. Functional_Verification 
+   - Verilog Modules, Results ==> Waveform and VVP 
+2. Logic_Synthesis
+   - Verilog Modules , Results ==> Netlist.v , Schematic
+3. Timing_Power_Checks
+   - Library File (NangateOCL.lib), Constraints File (top.sdc) , Netlist , Flow Script (test.tcl). results==> Power and Timing Report in text format. 
+4. Physical_Design
+   - Flow Script (flow.tcl), constraint file, Netlist, library File, Other Supporting files,
+5. Results
+   - All Stages Results Snapshots. 
+
 
 
 
