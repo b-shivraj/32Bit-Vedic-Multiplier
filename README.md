@@ -34,9 +34,34 @@ Physical Design:
 6. Perform clock tree synthesis (CTS) to insert clock buffers and ensure balanced clock delivery to all registers.
 7. Perform final routing to connect all the cells using metal layers, ensuring that signal paths meet timing and physical design rules.
 
+**Physical Design Results**
+
 **Final Layout:**
 
 <img width="989" height="886" alt="Vedic32bit_Layout" src="https://github.com/user-attachments/assets/fb730351-72ee-4737-8332-06e933e192bb" />
+
+**Floorplanning** 
+
+die_area {0 0 360 380}
+core_area {15 20 330 340} 
+
+<img width="990" height="881" alt="image" src="https://github.com/user-attachments/assets/1b6cbb40-2f43-406d-a42f-d49d9dc7793f" /> 
+
+**Power Delivery Network **
+
+<img width="985" height="889" alt="image" src="https://github.com/user-attachments/assets/070aed8b-49f5-4deb-8287-23e658abb771" /> 
+
+**Global Placement** 
+
+<img width="971" height="874" alt="image" src="https://github.com/user-attachments/assets/a5ccb8ec-54b4-4f71-bab6-530739291f53" />
+
+**Detailed Placement**
+
+<img width="987" height="886" alt="image" src="https://github.com/user-attachments/assets/b7d49cfe-ed04-42a0-97e4-c2cfd5a03b4d" />
+
+**8 Bit Adder Closer View** 
+
+<img width="1496" height="875" alt="image" src="https://github.com/user-attachments/assets/1b36d76e-9cd3-4b89-8d01-d8274d435e53" />
 
 
 
