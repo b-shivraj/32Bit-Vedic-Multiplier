@@ -34,6 +34,7 @@ Physical Design:
 6. Perform clock tree synthesis (CTS) to insert clock buffers and ensure balanced clock delivery to all registers.
 7. Perform final routing to connect all the cells using metal layers, ensuring that signal paths meet timing and physical design rules.
 
+<img width="989" height="886" alt="Vedic32bit_Layout" src="https://github.com/user-attachments/assets/fb730351-72ee-4737-8332-06e933e192bb" />
 
 
 **Directory Structure** 
