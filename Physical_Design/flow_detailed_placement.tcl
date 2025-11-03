@@ -96,5 +96,7 @@ utl::metric "RSZ::max_capacitance_slack" [expr [sta::max_capacitance_check_slack
 
 
 write_verilog post_detailed_placement.v
-write_def post_detailed_placement.def
+write_def post_detailed_placement.def 
 
+set repair_antennas_db [make_result_file ${design}_${platform}_repaired_route.odb]
+write_db $repair_antennas_db

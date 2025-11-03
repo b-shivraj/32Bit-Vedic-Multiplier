@@ -38,4 +38,6 @@ if { [have_macros] } {
 # Tapcell insertion
 eval tapcell $tapcell_args 
 
+set repair_antennas_db [make_result_file ${design}_${platform}_repaired_route.odb]
+write_db $repair_antennas_db
 

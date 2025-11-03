@@ -76,4 +76,8 @@ estimate_parasitics -placement
 repair_design -slew_margin $slew_margin -cap_margin $cap_margin
 
 repair_tie_fanout -separation $tie_separation $tielo_port
-repair_tie_fanout -separation $tie_separation $tiehi_port
+repair_tie_fanout -separation $tie_separation $tiehi_port 
+
+set repair_antennas_db [make_result_file ${design}_${platform}_repaired_route.odb]
+write_db $repair_antennas_db 
+

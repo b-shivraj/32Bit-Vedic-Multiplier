@@ -43,4 +43,7 @@ eval tapcell $tapcell_args
 source $pdn_cfg
 pdngen 
 
+set repair_antennas_db [make_result_file ${design}_${platform}_repaired_route.odb]
+write_db $repair_antennas_db 
+
 
