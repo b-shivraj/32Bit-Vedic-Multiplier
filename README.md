@@ -34,8 +34,6 @@ Physical Design:
 6. Perform clock tree synthesis (CTS) to insert clock buffers and ensure balanced clock delivery to all registers.
 7. Perform final routing to connect all the cells using metal layers, ensuring that signal paths meet timing and physical design rules.
 
-**Timing and Power Analysis**
-
 
 
 **Directory Structure** 
