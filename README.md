@@ -11,10 +11,10 @@ The Project involves creating the 32bit vedic multiplier and implement it on the
 
 The following open-source tools are used in this flow:
 
-Yosys for Logic Synthesis
-OpenSTA for Timing and Power Analysis
-OpenROAD for Physical Design and Layout
-TCL Scripts for Flow Automation 
+1. Yosys for Logic Synthesis
+2. OpenSTA for Timing and Power Analysis
+3. OpenROAD for Physical Design and Layout
+4. TCL Scripts for Flow Automation 
 
 **RTL to GDS Flow using Open-source Tools** 
 
