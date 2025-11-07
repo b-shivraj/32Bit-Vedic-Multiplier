@@ -3,7 +3,6 @@ source "helpers.tcl"
 source "flow_helpers.tcl"
 
 source "Nangate45/Nangate45.vars"
-#source "sky130hd/sky130hd.vars"
 
 set design "Vedic_32x32"
 set top_module "vedic32x32"
